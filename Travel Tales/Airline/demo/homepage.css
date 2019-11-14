@@ -1,0 +1,23 @@
+#homepage {
+	background-color: #aaa29e;
+	width: 800px;
+	font-size: 16px;
+	height: 600px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #3a7f1d;
+    border-color: #4cae4c;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #a08240;
+    border-color: #46b8da;
+}
+

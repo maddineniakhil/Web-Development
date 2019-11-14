@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flames Game</title>
+	<link rel="stylesheet" type="text/css" href="flames.css">
+</head>
+<body>
+
+	<p id="welcome"><strong>Please login to play the Flames game</strong></p>
+    
+    <div id="center">
+    	<form action="validate.php" method="post">
+            
+    		<label for = "user"><strong>Username:</strong></label>
+			<input id = "user" type="text" name="email" placeholder="Type your Username" required>
+			<br>
+			<label for = "pass"><strong>Password:</strong>&nbsp;</label>
+			<input id = "pass" type="Password" name="password" placeholder="Type your password" minlength="8" maxlength="16" required>
+			
+			<p><input type="submit" name="submit" value="submit"></p>       
+        </form>
+    </div>
+
+    <p id="rules"> <a href="Rules.html">Learn more about Flames game</a></p>
+    <p id="design"><strong>Project designed by the Akhil & Avinash</strong></p>
+    <p id="project">HTML - CSS - PHP Project</p>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>FIFTEEN PUZZLE</title>
+</head>
+<body onload="onRestart(-1)">
+<div id="title">
+<h1>Vintage Car Puzzle Game</h1>
+<h4>Please select the background image for the puzzle</h4>
+</div>
+<div id="imgSelect">
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+    <input class="raidoButton" type="radio" id="bgButton1" checked="checked" value="background.jpg" onclick="pictureSelect(this)"/>
+    <img src="background.jpg" alt="bg1" id="bg"/>&nbsp&nbsp
+</label>
+<label>
+    <input class="raidoButton" type="radio" id="bgButton2" checked="checked" value="background1.jpg" onclick="pictureSelect(this)"/>
+    <img src="background1.jpg" alt="bg2" id="bg1">&nbsp&nbsp
+</label>
+<label>
+    <input class="raidoButton" type="radio" id="bgButton3" checked="checked"  value="background2.jpg" onclick="pictureSelect(this)"/>
+    <img src="background2.jpg" alt="bg3" id="bg2">&nbsp&nbsp
+</label>
+<label>
+    <input class="raidoButton" type="radio" id="bgButton4" checked="checked"  value="background3.jpg" onclick="pictureSelect(this)"/>
+<img src="background3.jpg" alt="bg4" id="bg3">
+</label>
+</div>
+<div id="buttonGroup">
+<select id="dem">
+<option>4 X 4</option>
+<option>6 X 6</option>
+<option>8 X 8</option>
+</select>&nbsp&nbsp
+<button class="buttons" onclick="onRestart(-3); timerStart();"><span>NEW GAME</span></button>
+<p id="timer"><strong>Timer :- </strong></p> 
+</div>
+
+<div id="Audio">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<audio id="myAudio" controls>
+  <source src="bg.mp3" type="audio/ogg">
+</audio><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button onclick="enableLoop()" type="button">Enable loop</button>&nbsp&nbsp&nbsp
+<button onclick="disableLoop()" type="button">Disable loop</button> &nbsp&nbsp&nbsp
+<button onclick="checkLoop()" type="button">Check loop status</button> 
+ <br><br>
+</div>
+
+<div id="tableDiv">
+</div>
+<br>
+<div id="shuffleBt">
+&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="onRestart(-3); timerStart();" class="buttons1" >SHUFFLE</button><br><br><br>&nbsp&nbsp
+<button onclick="finish1()" class="buttons1"> END GAME </button>
+</div>
+<div id="links">
+    <img src="jsLint.png"  alt="lint" id="lint" onclick="goTo(this)">
+    <img src="css.png" alt="css" id="css" onclick="goTo(this)"> 
+    <img src="html.png" alt="html" id="html" onclick="goTo(this)">
+</div>
+<button onclick="onRestart(1); setTimeout(check, 3000);" type="button">CHEAT</button>
+
+<script src="fifteen.js"></script>
+</body>
+</html>

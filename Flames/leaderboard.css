@@ -1,0 +1,41 @@
+body{
+
+	background-image: url("Background.jpg");
+}
+
+h1{
+
+  color: green;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 40%;	
+}
+
+a{
+
+  color: solid red;
+  margin: 0;
+  position: absolute;
+  top: 9%;
+  left: 80%;
+  font-size: 20px
+}
+
+table, td {
+
+  	width: auto; 
+	height:auto;	
+  border: 1px solid black;
+  font-size: 30px;
+}
+
+div{
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

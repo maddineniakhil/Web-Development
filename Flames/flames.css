@@ -1,0 +1,136 @@
+body{
+
+	background-image: url("redBackground.jpg");
+}
+
+#welcome {
+  color: gold;
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 34%;
+  font-size: 40px;
+}
+
+
+#design{
+
+  color: solid green;
+  margin: 0;
+  position: absolute;
+  top: 89%;
+  left: 38%;
+  font-size: 25px;	
+}
+
+#project{
+
+  color: gold;
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  font-size: 20px;	
+
+}
+
+h2{
+
+  color: green;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  font-size: 40px;	
+}
+
+#logout{
+  color: green;
+  margin: 0;
+  position: absolute;
+  top: 9%;
+  left: 92%;	
+}
+
+#rules{
+
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  font-size: 20px;
+  color: green;
+}
+
+
+#center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 40px 30px 60px 40px;;  
+  border: 0px;
+  font-size: 30px;
+  color: gold;
+  background-color: grey;
+  box-shadow: 2px 2px black;
+}
+
+#center p {
+
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+h1{
+
+  color: green;
+  margin: 0;
+  position: absolute;
+  top: 8%;
+  left: 65%;
+
+}
+
+#center1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 450px;
+  padding: 40px 40px 60px 40px;;  
+  border: 10px solid grey;
+  font-size: 30px;
+  color: gold;
+
+}
+
+#center1 p {
+
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+#a1{
+
+  color: green;
+  margin: 0;
+  position: absolute;
+  top: 9%;
+  left: 77%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-image:url(Background.jpg)">
+
+<div class="logo">
+	<img src="flamesLogo.png" alt="The F.L.A.M.E.S Game" height="189px" width="336px">
+</div>
+<div class="text-left">
+	<p>
+	<span class="gold">F L A M E S</span> is a game named after the acronym: <span class="gold">F</span>riendship, <span class="gold">L</span>ove, <span class="gold">A</span>ffection, <span class="gold">M</span>arriage, <span class="gold">E</span>nemity, <span class="gold">S</span>ibblings. It is a popular game among young girls at sleepovers, especially with pre-teens and teens who are beginning to explore the world of crushes. This game does not accurately predict whether or not an individual is right for you, but it can be fun to play this with your friends.
+	</p>
+	<p>
+	It is a fun filled love calculator to test the status of your love relationship between him/her using FLAMES. Asimple test of love using only names of people. 
+	</p>
+	<h2>Algorithm</h2>
+	<p>
+	It is very easy to explain with an example: <br/>
+	Your name: <i class="gold">asd</i> <br/>
+	Partner name: <i class="gold">abcd</i> <br/>
+
+	There are two main steps:
+	<ol>
+	<li>Get the flames count
+		<ul>
+		<li>Consider two names (<span class="gold">'asd'</span> and <span class="gold">'abcd'</span>)</li>
+		<li>Remove common characters (two common characters <span class="gold">'a'</span>, <span class="gold">'d'</span>)</li>
+		<li>Count the number of characters left (Removed <span class="gold">a</span>,<span class="gold">d</span> and the rest are <span class="gold">s</span>,<span class="gold">b</span>,<span class="gold">c</span>. So total <span class="gold">3</span>.)</li>
+		</ul>
+	</li>
+	<li>Determine the flames result
+		<ul>
+		<li>We take FLAMES letters (<span class="gold">'F'</span>, <span class="gold">'L'</span>, <span class="gold">'A'</span>, <span class="gold">'M'</span>, <span class="gold">'E'</span>, <span class="gold">'S'</span>)</li>
+		<li>And start removing letters using the flames count we got.</li>
+		<li>And the letter which last the process is the result.</li>
+		</ul>
+	</li>
+	</ol>
+	</p>
+	<p>
+	In our example we got flames count = 3. So first we take the letters FLAMES.<br/> 
+	<span class="gold">F L A M E S</span> <br/> 
+	We, then start counting from left till the flames count <span class="gold">3</span>. Then remove the letter which is at position 3. In this case it is <span class="gold">'A'</span>. So the letters become: <br/> 
+	<span class="gold">F L M E S </span><br/> 
+	Then, we start counting again from the letter which was removed i.e., from <span class="gold">'M'</span>. So the next character to remove is <span class="gold">'S'</span>. So our letters become: <br/> 
+	<span class="gold">F L M E </span><br/> 
+	After next step: <br/> 
+	<span class="gold">F L E </span><br/> 
+	Then: <br/> 
+	<span class="gold">F E </span><br/> 
+	Last: <br/> 
+	<span class="gold">F</span> <br/> 
+	So the result is <span class="gold">'Friendship'</span>.
+	</p>
+</div>
+
+</body>
+</html>
